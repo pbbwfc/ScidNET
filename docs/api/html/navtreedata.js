@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "ScincFuncs", "index.html", ]
+  [ "ScidFuncs", "index.html", ]
 ];
 
 var NAVTREEINDEX =

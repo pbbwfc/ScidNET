@@ -2,7 +2,7 @@ namespace Tests
 
 open System.IO
 open Microsoft.VisualStudio.TestTools.UnitTesting
-open ScincFuncs
+open ScidFuncs
 
 [<TestClass>]
 type TestTree () =
@@ -31,8 +31,8 @@ type TestTree () =
 
     [<TestMethod>]
     member this.TreeSearch () =
-        let mutable tsts = new ScincFuncs.totstats()
-        let mutable mvsts = new ResizeArray<ScincFuncs.mvstats>()
+        let mutable tsts = new ScidFuncs.totstats()
+        let mutable mvsts = new ResizeArray<ScidFuncs.mvstats>()
         let actual = Tree.Search(&mvsts,&tsts,"rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",1)
         Assert.AreEqual(0, actual)
         Assert.AreEqual(5,tsts.TotCount)
@@ -61,8 +61,8 @@ type TestTree () =
 
     [<TestMethod>]
     member this.TreeWrite () =
-        let mutable tsts = new ScincFuncs.totstats()
-        let mutable mvsts = new ResizeArray<ScincFuncs.mvstats>()
+        let mutable tsts = new ScidFuncs.totstats()
+        let mutable mvsts = new ResizeArray<ScidFuncs.mvstats>()
         let actual = Tree.Search(&mvsts,&tsts,"rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",1)
         Assert.AreEqual(0, actual)
         let actual = Tree.Write(1)

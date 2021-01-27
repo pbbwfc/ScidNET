@@ -2,7 +2,7 @@ namespace Tests
 
 open System.IO
 open Microsoft.VisualStudio.TestTools.UnitTesting
-open ScincFuncs
+open ScidFuncs
 
 [<TestClass>]
 type TestBase1 () =
