@@ -14,7 +14,7 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{5c9cff22-0cbd-478f-9d9d-4e05da339c08}</ProjectGuid>
-    <RootNamespace>ScincLib</RootNamespace>
+    <RootNamespace>ScidLib</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>ScidLib</ProjectName>
   </PropertyGroup>

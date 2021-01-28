@@ -14,7 +14,7 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{AA0013D6-DC2E-48B8-B07E-BCC8BE47E87F}</ProjectGuid>
     <Keyword>NetCoreCProj</Keyword>
-    <RootNamespace>ScincFuncs2</RootNamespace>
+    <RootNamespace>ScidFuncs</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <TargetFramework>net5.0</TargetFramework>
     <ProjectName>ScidFuncs</ProjectName>
