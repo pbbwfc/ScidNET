@@ -9,7 +9,7 @@ For further details, see the documentation:
 
 ## Using
 
-To get started please download the code and build the .DLL.
+To get started, please download the zip from the latest release. Then extract and use with the sample scripts.
 
 ## Developing
 
